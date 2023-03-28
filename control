@@ -1,0 +1,9 @@
+Package: com.i0stweak3r.duplicatefinder
+Name: DuplicateFinder
+Author: i0s_tweak3r
+Description: Finds duplicate files and lists them in output file path specified.
+Depends: mobilesubstrate
+Maintainer: i0s_tweak3r <djvs23@gmail.com>
+Architecture: iphoneos-arm
+Section: Utilities
+Version: 0.0.1
