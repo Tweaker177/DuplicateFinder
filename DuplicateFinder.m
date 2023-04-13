@@ -63,10 +63,10 @@ NSLog(@"Duplicates have been outputted if any existed to file path: %@", outputF
 - (BOOL)isSafeToDeleteFilePath:(NSString *)filePath {
     // Determine whether it is safe to delete the file at this path
     // For example, you can check whether the file is in use by another program
-    //Right now there is no real check, only references to here, which returns YES every time.
+    //Right now there is no real check, only references to here, which returns NO every time.
     //if you add a delete function make sure you determine the files are safe to delete.
     //considering most are system files when ya start at root, it should probably be NO by default
-    return YES;
+    return NO;
 }
 
 @end
